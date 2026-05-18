@@ -6,7 +6,21 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+}
 
+nav li {
+  display: inline;  /*Makes list horizontal*/
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none; /* Removes the underline */
+  color: blue;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -131,7 +145,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0.5em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -159,6 +173,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		margin: 0;
 	}
 
 	h4 {
@@ -1767,7 +1782,7 @@ input, select, textarea {
 	header p {
 		color: #b2b2b2;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0;
 	}
 
 	header h2 + p {
